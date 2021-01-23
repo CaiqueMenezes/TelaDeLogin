@@ -9,12 +9,12 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #dbdedf;
+    background: url(../img/img-background.jpeg) center center/cover;
     
 }
 .content {
-    border-radius: 15px;
-    background-color: #fff;
+    border-radius: 100px 0px 100px 0px;
+    background-color: rgba(0, 0, 5, 0.8);
     width: 30%;
     height: 80%;
     display: flex;
@@ -25,14 +25,14 @@
     font-size: 38px;
     font-weight: bold;
     text-align: center;
-    color: #58af9b;
+    color: white;
     font-family:'Open Sans', sans-serif;
 }
 .description {
     font-size: 14px;
     font-weight: 300;
     line-height: 30px;
-    color: #7f8c8d;
+    color: white;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
@@ -44,16 +44,17 @@
     cursor: pointer;
     width: 150px;
     align-self: center;
-    background-color: #58af9b;
-    border: 1px solid  #58af9b;
+    background-color: #0081a0;
+    border: 1px solid  #0081a0;
     color: white;
     margin-top: 10px;
     font-family: 'Open Sans', sans-serif;
+    outline: none;
 }
 .btn:hover {
     background-color: #fff;
-    border: 1px solid  #58af9b;
-    color:  #58af9b;
+    border: 1px solid  #0081a0;
+    color:  #0081a0;
 
 }
 .list-social-media {
@@ -67,7 +68,7 @@
 }
 .item-social-media {
     align-items: center;
-    border: 1px solid #bdc3c7;
+    border: 1px solid #0081a0;
     border-radius: 50%;
     width: 35px;
     height: 35px;
@@ -76,9 +77,10 @@
     color: #95a5a6;
 }
 .link-social-media:hover .item-social-media {
-    background-color: #58af9b;
+    background-color: #0081a0;
     color: #fff;
-    border-color: #58af9b;
+    border-color: #0081a0;
+    transform: scale(1.1);
 }
 .form {
     display: flex;
@@ -87,27 +89,29 @@
 .form input {
     height: 45px;
     border: none;
-    background-color:#e2e3e4;;
+    background-color: transparent;
     width: 100%;
+    outline: none;
+    width: 190px;
+    color: white;
 }
 .password {
-    color: #34495e;
+    color: white;
     font-size: 13px;
     margin: 10px 0;
     text-align: center;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    color: #7f8c8d;
 }
 .paragrafo {
-    color: #34495e;
+    color: white;
     font-size: 14px;
     text-align: center;
     margin-top: 15px;
     font-family: 'Open Sans' sans-serif;
 }
 .new-account {
-    color: #34495e;
+    color: white;
     font-size: 15px;
     margin-top: 10px;
     text-align: center;
@@ -115,14 +119,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 .label-input {
-    background-color: #e2e3e4;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
     display: flex;
     align-items: center;
     margin: 6px;
 }
 .icon-modify {
     color: #828888;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 /*VERSÃO MOBILE*/
@@ -132,9 +137,6 @@
         height: 100%;
         justify-content: space-around;
     }
-
-
-
 }
 
 
